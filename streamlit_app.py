@@ -205,31 +205,6 @@ st.markdown('<div class="section-title">Projects</div>', unsafe_allow_html=True)
 
 st.markdown(
     """
-    <div class="card">
-        <div class="card-title">AdvisorPrep AI — Pre-Meeting Briefing Workflow</div>
-        <div class="card-meta">Corporate Internship Program (CIP) Project &nbsp;|&nbsp; AnytimeInvest Services Private Limited</div>
-        <p><b>Problem:</b> Financial advisors were spending 20–40 minutes per client manually drafting
-        pre-meeting briefs from raw client portal data, with inconsistent quality under time pressure.</p>
-        <p><b>What I did:</b> Designed a five-prompt ChatGPT workflow paired with a structured Excel
-        input template that converts client data into a draft pre-meeting briefing — covering financial
-        position, goal observations, portfolio notes, insurance adequacy, and a discussion agenda.</p>
-        <p><b>Tools:</b> ChatGPT (prompt engineering), Excel, service blueprinting</p>
-        <p><b>Output:</b> Cut advisor preparation time from 20–40 minutes to 5–8 minutes per client;
-        demonstrated live to and validated by corporate mentor Ms. Ayushi Srivastava.</p>
-    </div>
-    """,
-    unsafe_allow_html=True,
-)
-st.download_button(
-    "View CIP Report (PDF)",
-    data=file_bytes(ASSETS / "CIP_Report_AdvisorPrep_AI.pdf"),
-    file_name="CIP_Report_AdvisorPrep_AI.pdf",
-    mime="application/pdf",
-    key="cip_report",
-)
-
-st.markdown(
-    """
     <div class="card" style="margin-top:14px;">
         <div class="card-title">Nivesh Compass — AI-Based Financial Planning Tool</div>
         <div class="card-meta">Self-built, deployed live</div>
