@@ -241,7 +241,7 @@ st.markdown(
     """,
     unsafe_allow_html=True,
 )
-st.markdown('<a class="link-pill" href="https://drive.google.com/file/d/1APUmVzWY1CHmTk4eN2a7TnsJrZbBD2iD/view?usp=drive_link" target="_blank" rel="noopener">View Project →</a>', unsafe_allow_html=True)
+st.markdown('<a class="link-pill" href="https://drive.google.com/file/d/1caJba8w0YzQH8bzgmdHsKAMittp6CmhO/view?usp=drive_link" target="_blank" rel="noopener">View Project →</a>', unsafe_allow_html=True)
 
 # ---------- experience ----------
 st.markdown('<div class="section-title">Experience</div>', unsafe_allow_html=True)
